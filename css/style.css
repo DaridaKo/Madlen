@@ -31,8 +31,8 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -144,6 +144,8 @@ html, body {
   font-weight: 600;
   font-size: 18px;
   text-decoration: none;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
 }
 .menu__link_b {
   font-weight: 600;
@@ -154,8 +156,8 @@ html, body {
   border-radius: 15px;
   padding: 5px 10px;
   background-color: #4A321A;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
   margin-bottom: 10px;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
@@ -163,6 +165,9 @@ html, body {
 }
 .menu__link_b:hover {
   padding: 10px 15px;
+}
+.menu__link:hover {
+  border-bottom: 2px solid #fff;
 }
 
 .background {
